@@ -1,8 +1,0 @@
-Атрибуты чек-лист:
-1. id;
-2. summary;
-3. inputs;
-4. expected result;
-5. actual result;
-6. status;
-7. bug.
