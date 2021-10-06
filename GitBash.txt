@@ -1,5 +1,5 @@
-
-Linux terminal (GitBash) commands
+1️⃣
+Команды терминала Linux (GitBash)
 
 2.  mkdir testgit1
 3.  cd testgit1
@@ -34,8 +34,8 @@ mkdir test4 test5 test6
 ls -la
 mv file4.json file5.json test4
 
-
-Home work for GitHub
+2️⃣
+Домашняя работа для GitHub
 
 1.  git checkout -b
 2.  git push --set-upstream origin Postman Jmeter CheckList BagReports SQL Charles MobileTesting
