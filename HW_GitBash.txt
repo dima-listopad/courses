@@ -56,5 +56,3 @@ mv file4.json file5.json test4
 10. git fetch origin
     git reser --hard origin/master
     git clean -f -d
-
-
