@@ -1,0 +1,60 @@
+1️⃣
+Команды терминала Linux (GitBash)
+
+1.  mkdir testgit1
+2.  cd testgit1
+3.  mkdir test1 test2 test3
+4.  cd test1
+5.  touch 1_txt_file.txt 2_txt_file.txt 3_txt_file.txt 1_json_file.json 2_json_file.json
+6.  mkadir file1 file2 file3
+7.  ls -la
+8.  vim 1_txt_file.txt
+9. "i" welcome to my world 
+10. "esc" :wq
+11. cd ..
+12. mv 1_json_file.json 2_json_file.json file1
+13. cp 1_txt_file.txt 2_txt_file.txt file1/
+14. find ./ -type f -name "1_json_file.json"
+15. cat 1_txt_file.txt
+16. cat 1_txt_file.txt | sed -n 1,2p
+17. cat 1_txt_file.txt | sed -n 6,7p
+18. less 1_txt_file.txt
+19. date
+
+Задание *
+1.  curl -p 'http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000'
+2.  touch myscript.bash
+
+#!/bin/bash
+cd file_script
+mkdir test1 test2 test3
+cd test1
+touch file1.txt file2.txt file3.txt file4.json file5.json
+mkdir test4 test5 test6
+ls -la
+mv file4.json file5.json test4
+
+2️⃣
+Домашняя работа для GitHub
+
+1.  git checkout -b
+2.  git push --set-upstream origin Postman Jmeter CheckList BagReports SQL Charles MobileTesting
+3.  touch Structure.txt
+4.  git push
+5.  git checkout master
+    git merge BagReports
+    git checkout BagReports
+6.  git push -u origin BagReports
+7.  git checkout CheckLists
+    touch Structure2
+8.  git add Structure2
+    git commit -m "Structure2"
+    git push
+9.  git checkout master
+    git merge CheckLists
+    git checkout CheckLists
+10. git fetch origin
+    git reser --hard origin/master
+    git clean -f -d
+
+
